@@ -1,4 +1,6 @@
-word = "bottles"
+word = "bottles" # This is an example of a string variable.
+# Use 'help(range)'. To understand the range function.
+# range(start, end, step[Increment/Decrement])
 for beer_num in range(99, 0, -1):
     print(beer_num, word, "of beer on the wall.")
     print(beer_num, word, "of beer.")

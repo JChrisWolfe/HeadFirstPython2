@@ -1,8 +1,11 @@
+# There are 4 built-in data structures: Lists, Sets, Dictionaries, and Tuples.
+# List: an ordered mutable collection of objects.
+#  They are dynamic (can change in size) and edit them at any time. 
 vowels = ['a', 'e', 'i', 'o', 'u']
-word = input("Provide a word to search for vowels: ")
+word = input("Provide a word to search for vowels: ") # Ask user to input a string.
 found = []
-for letter in word:
-    if letter in vowels:
-        if letter not in found:
-            found.append(letter)
-print(found)
+for letter in word: # Take each letter of a word...
+    if letter in vowels: # ...and if it is in the 'vowels' list...
+        if letter not in found: # ... if the vowel letter you found is not in the found list ...
+            found.append(letter) # ... then add the vowel letter in the found list ... 
+print(found) # ... display the found vowel letters on screen.
